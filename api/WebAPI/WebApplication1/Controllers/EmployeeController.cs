@@ -14,7 +14,7 @@ namespace WebApplication1.Controllers
 {
     public class EmployeeController : ApiController
     {
-        public HttpResponseMessage Get(string loginType, string EmployeeId)
+        public HttpResponseMessage Get( string EmployeeId)
         {
             int iEmployeeId = 0;
             iEmployeeId = Convert.ToInt32(EmployeeId);

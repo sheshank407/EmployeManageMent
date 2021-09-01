@@ -13,13 +13,12 @@ export class SharedService {
   constructor(private http: HttpClient) { }
 
   getEmpList(): Observable<any[]> {
-    var loginType = localStorage.getItem("logintype");
     var employeeId = "0"; 
     if (localStorage.getItem("EmployeeId")) {
       
       employeeId=localStorage.getItem("EmployeeId")
     }
-    var params = new HttpParams().append('loginType', loginType).append("EmployeeId", employeeId == undefined ? "0" : employeeId);
+    var params = new HttpParams().append("EmployeeId", employeeId == undefined ? "0" : employeeId);
 
     return this.http.get<any>(this.APIUrl + '/Employee', { params });
   }
