@@ -11,12 +11,12 @@
 
     System users(Admin) can delete the employee from Grid.
 # Getting Started
- /* software required to run project */
+ 
  1)Angular 10 or more
  2)Dot Net V4.0 or more
  3)Node JS v12.16.1
 # API
-/* API's created in .net*/
+
 1) Get Request for api/Employee?EmployeeId=0
    Use to fetch All Employee Details of Logged in Employee Details,
    For Admin Login Employee Id is sent as Zero for employee login respective EmployeeId.
@@ -36,7 +36,7 @@
   It is used to save selected image.
 
 # Run
-/* Add steps to how to run the app*/   
+
 1)Install node modules in angular 
 2)Use "ng serve" command to run the angular application
 3)Build the APi solution
