@@ -10,5 +10,13 @@
     System users(Employee) can view, edit and update employee details .
 
     System users(Admin) can delete the employee from dataGrid.
+# Getting Started
+ /* software required to run project */
+# API
+/* API's created in .net*/
+# Prerequisites
+/*project setup like setting path*/
+# Run
+/* Add steps to how to run the app*/   
 
 
